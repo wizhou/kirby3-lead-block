@@ -1,0 +1,37 @@
+name: Lead
+icon: headline
+fields:
+  text:
+    type: textarea
+    size: medium
+    buttons:
+      - bold
+      - italic
+      - link
+      - ol
+      - ul
+      - code
+
+  size:
+    type: select
+    width: 1/2
+    options:
+      canon: canon
+      parangon: parangon
+      headline: headline
+      lead: lead
+      cicero: cicero
+
+  font:
+    type: select
+    width: 1/2
+    default: nexa
+    options:
+      axios: Axios
+      nexa: Nexa
+
+  text-transform:
+    type: select
+    options:
+      none: none
+      uppercase: uppercase
