@@ -1,6 +1,6 @@
 <?php
 
-Kirby::plugin('wizhou/lead-block', [
+Kirby::plugin('wizhou/kirby3-lead-block', [
   'blueprints' => [
     'blocks/lead' => __DIR__ . '/blueprints/blocks/lead.yml'
   ],

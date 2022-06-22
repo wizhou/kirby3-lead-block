@@ -1,6 +1,6 @@
 import Lead from './components/Lead.vue';
 
-panel.plugin('wizhou/lead-block', {
+panel.plugin('wizhou/kirby3-lead-block', {
   blocks: {
     lead: Lead
   }
